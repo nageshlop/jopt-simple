@@ -1,5 +1,8 @@
 language: java
 sudo: no
+arch:
+  - amd64
+  - ppc64le
 env: MAVEN_OPTS="-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true"
 jdk:
   - oraclejdk8
